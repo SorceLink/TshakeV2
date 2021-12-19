@@ -1,4 +1,4 @@
-from  import Client, filters
+from pyrogram import Client, filters
 
 from utlis.rank import setrank ,isrank ,remrank ,setsudos ,remsudos ,setsudo
 from handlers.callback import updateCallback
